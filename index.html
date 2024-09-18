@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emoji Meaning Finder</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-
 </head>
 <body>
     <div class="container">
@@ -19,7 +18,7 @@
         {% if meaning %}
             <div class="result">
                 <h2>Meaning:</h2>
-                <p>{{ meaning }}</p> <!-- Correct usage: only use 'meaning' here -->
+                <p>{{ meaning }}</p>
             </div>
         {% endif %}
     </div>
